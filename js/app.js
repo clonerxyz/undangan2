@@ -337,8 +337,8 @@ window.addEventListener('load', () => {
 		let div = document.createElement('div');
         div.classList.add('m-2');
         div.innerHTML = `
-        <p style="background-color:#dbd4c3;color: #5b5c4b !important;" class="mt-0 mb-1 mx-0 p-0 ">Kepada Yth Bapak/Ibu/Saudara/i</p>
-        <h2 style="background-color:#dbd4c3;color: #5b5c4b !important;" >${escapeHtml(name)}</h2>
+        <p style="background-color:#edccd3;color: #1c101b !important;" class="mt-0 mb-1 mx-0 p-0 ">Kepada Yth Bapak/Ibu/Saudara/i</p>
+        <h2 style="background-color:#edccd3;color: #1c101b !important;" >${escapeHtml(name)}</h2>
         `;
 
         document.getElementById('formnama').value = name;

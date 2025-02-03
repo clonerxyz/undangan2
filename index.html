@@ -290,46 +290,7 @@
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
            
         </svg>
-        <section class="m-0 p-0" id="ucapan">
-            <div class="container">
-				<form action="https://api.saranamakmurmandiri.com/ind.php" method="post">
-                <div class="card-body border rounded-4 shadow p-3">
-                    <h1 class="font-estetik text-center mb-3" style="font-size: 2.0rem;">Ucapan & Doa</h1>
-                    <input type="hidden" id="idbalasan">
-                    <div class="mb-1" id="balasan"></div>
-                    <div class="mb-3">
-                        <label for="formnama" id="formnama" class="form-label">Nama</label>
-                        <input style="background-color:#edccd3;color: #4a4049 !important;" type="text" class="form-control shadow-sm" name="namadata" >
-                    </div>
-                    <div class="mb-3">
-                        <label for="hadiran" class="form-label" id="labelhadir">Kehadiran</label>
-                        <select style="background-color:#edccd3;color: #4a4049 !important;" class="form-select shadow-sm" aria-label="selectkehadiran" name="haridan">
-                            <option value="Hadir" selected>Konfirmasi Kehadiran</option>
-                            <option value="Hadir">Hadir</option>
-                            <option value="Berhalangan">Berhalangan</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="formpesan" class="form-label">Ucapan & Doa</label>
-                        <textarea style="background-color:#edccd3;color: #4a4049 !important;" class="form-control shadow-sm" name="textdata" rows="4" ></textarea>
-                    </div>
-                    <div class="d-grid mb-2">
-                        <button style="background-color:#edccd3;color: #4a4049 !important;" class="btn btn-light btn-sm rounded-4 shadow" type="submit" id="kirim">
-                            Kirim<i class="fa-solid fa-paper-plane ms-1"></i>
-                        </button>
-                    </div>
-                </div>
-				</form>
-				
-                <div style="opacity: 0.7;" class="rounded-4 mt-4 mb-2">
-                    <div id="daftarucapan"><iframe id="iFrame" name="iframe" src="https://api.saranamakmurmandiri.com/dat.html" style="border:none;height:100vh;width:100%;" allow="clipboard-read; clipboard-write" ></iframe></div>
-                </div>
-			<script>
-				document.getElementById("iFrame").src = "https://api.saranamakmurmandiri.com/dat.html?ver" + new Date().valueOf();
-			  </script>	
-                
-            </div>
-        </section>
+        
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#faebee" fill-opacity="1" d="M0,224L34.3,234.7C68.6,1.5,137,267,206,266.7C274.3,267,343,1.5,411,234.7C480,224,549,224,617,213.3C685.7,203,754,181,823,197.3C891.4,213,960,267,1029,266.7C1097.1,267,1166,213,1234,192C1302.9,171,1371,181,1406,186.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
